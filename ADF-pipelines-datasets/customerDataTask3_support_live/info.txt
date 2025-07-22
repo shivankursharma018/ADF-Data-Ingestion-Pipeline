@@ -1,0 +1,6 @@
+selected resource name:		customerDataTask3
+selected resource type:		dataset
+factory name:			shivankur-csi2025
+factory location:		eastus
+subscription id:		0286e617-d5fe-49b2-833e-72c49e5ea5d6
+time of download (UTC):		Tue, 22 Jul 2025 19:01:22 GMT

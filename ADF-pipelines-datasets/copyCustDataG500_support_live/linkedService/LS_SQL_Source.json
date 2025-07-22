@@ -1,0 +1,17 @@
+{
+    "name": "LS_SQL_Source",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureSqlDatabase",
+        "typeProperties": {
+            "server": "shiv33.database.windows.net",
+            "database": "shivankur-db1",
+            "encrypt": "mandatory",
+            "trustServerCertificate": false,
+            "authenticationType": "SQL",
+            "userName": "shiv-admin",
+            "encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFGQjIxMzc0LTMyOUMtNEFBMi1BMjdFLTY0N0U3MTY5REExRF9iYTA3YmZkMi05MmJjLTQ2ZjktYmU1MS0yZTY0MTE2YmVhOTAiDQp9"
+        }
+    }
+}
