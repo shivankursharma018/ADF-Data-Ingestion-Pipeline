@@ -73,7 +73,7 @@ This project demonstrates an end-to-end data engineering workflow using Azure Da
 - **Product Table**: 700 synthetic records.
 - **Fields**: IDs, names, contact info, categories, prices, and more.
 
-[!image$i](/screenshots/project11.png)
+![image$i](/screenshots/project11.png)
 
 ## Monitoring and Logging
 
@@ -111,8 +111,8 @@ This project demonstrates an end-to-end data engineering workflow using Azure Da
    - Add a "Copy Data" activity inside the ForEach loop.
    - Configure the sink to save the JSON response to Azure Data Lake Storage (ADLS) with the file name set to the country name.
 
-[!image$i](/screenshots/project9)png)
-[!image$i](/screenshots/project8)png)
+![image$i](/screenshots/project9.png)
+![image$i](/screenshots/project8.png)
 
 ### Step 2: Add a Trigger to the Pipeline
 
@@ -128,8 +128,8 @@ This project demonstrates an end-to-end data engineering workflow using Azure Da
 3. **Associate the Trigger with the Pipeline:**
    - Select the pipeline created in Step 1 to be triggered by this schedule.
 
-[!image$i](/screenshots/project12.png)
-[!image$i](/screenshots/project15.png)
+![image$i](/screenshots/project12.png)
+![image$i](/screenshots/project15.png)
 
 ### Step 3: Create a Pipeline to Copy Customer Data
 
@@ -152,10 +152,10 @@ This project demonstrates an end-to-end data engineering workflow using Azure Da
    - Inside the "If Condition" activity, add an "Execute Pipeline" activity to trigger the child pipeline.
    - Configure the Execute Pipeline activity to pass the customer record count as a parameter to the child pipeline.
 
-[!image$i](/screenshots/project17.png)
-[!image$i](/screenshots/project16.png)
-[!image$i](/screenshots/project18.png)
-[!image$i](/screenshots/project22.png)
+![image$i](/screenshots/project17.png)
+![image$i](/screenshots/project16.png)
+![image$i](/screenshots/project18.png)
+![image$i](/screenshots/project22.png)
 
 ### Step 4: Design the Child Pipeline for Product Data
 
@@ -173,7 +173,7 @@ This project demonstrates an end-to-end data engineering workflow using Azure Da
    - Inside the "If Condition" activity, add a "Copy Data" activity.
    - Configure the source to be the product table and the sink to be ADLS.
 
-[!image$i](/screenshots/project24.png)
+![image$i](/screenshots/project24.png)
 
 ### Step 5: Test and Monitor the Pipelines
 
@@ -185,7 +185,7 @@ This project demonstrates an end-to-end data engineering workflow using Azure Da
    - Use the ADF monitoring tools to track pipeline runs, errors, and performance.
    - Set up alerts and notifications for pipeline failures or issues.
 
-[!image$i](/screenshots/pipeline_success.png)
+![image$i](/screenshots/pipeline_success.png)
 
 ## Future Enhancements
 
